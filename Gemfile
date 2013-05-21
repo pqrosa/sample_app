@@ -15,6 +15,7 @@ end
 
 gem 'jquery-rails', '~> 2.0.0'
 
+# Capybara nos permite simular a interação do usuário com o aplicativo.
 group :test do
 	gem 'capybara', '1.1.2'
 end
